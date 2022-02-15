@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             val myIntent =Intent(this, ViewMessageActivity::class.java)
 
             // myIntent에, 입력한 내용을 첨부
-            myIntent.putExtra("message",inputMessage)
+            myIntent.putExtra("Message",inputMessage)
 
             startActivity(myIntent)
         }
